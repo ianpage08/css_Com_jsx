@@ -1,8 +1,8 @@
 import React from 'react'
-import './components/source/main.scss'
-
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './components/header'
+import About from './components/about'
+import './global.css'
 
 function App() {
   
@@ -10,9 +10,9 @@ function App() {
   return (
     <>
     <Header/>
-      <div><h1>Olá mundo</h1></div>
+      <About/>
       
-      <button className='btn-primary btn'>Botão</button>
+      
       
     </>
   )
