@@ -8,7 +8,7 @@
         padding: 100px;
         .conteudo_sobre{
             h2{
-                font-size: 9em;
+                font-size: 5em;
             }
             width: 500px;
             .btn_sobre{
@@ -39,14 +39,15 @@
                         
                         
             }
-            .img_sobre{
+            
+        }
+        .img_sobre{
+            border-radius: 50%;
             max-width: 390px;
             width: 100%;
             max-height: 450px;
             height: 100%;
             }
-        }
-        
                 
             
             
@@ -55,7 +56,7 @@
     
 }
 
-@keyframes girar {
+@keyframes anima{
         from {
     
             opacity: 0;
