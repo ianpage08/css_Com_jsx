@@ -13,12 +13,56 @@
     justify-content: center;
     align-items: center;
         .modal-conteudo{
-            background-color: white;
-            width: 50%;
-            height: 50%;
+            background-color: #13131f;
+            display: flex;
+            flex-flow: nowrap column;
+            align-items: center;
+            justify-content: space-around;
+            width: 70%;
+            height: 75%;
             padding: 24px;
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); 
+            .header-modal{
+                color: rgba(255, 255, 255, 0.61);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+            }
+            .conteudo-dentro-modal{
+                p{  
+                    color: rgba(255, 255, 255, 0.575);
+                    width: 50%;
+                    padding: 20px;
+                    text-align: justify;
+                }
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            }
+            .links-modal{
+                width: 100%;
+                padding: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                a{  
+                    cursor: pointer;
+                    text-decoration: none;
+                    background-color: #b673ec;
+                    padding: 8px;
+                    color: #13131f;
+                    font-weight: bolder;
+                    border-radius: 21px;
+
+                    &:hover{
+                        scale: 0.90;
+                        transition: 0.5s;
+                    }
+                }
+                
+            }
         }
 } 
 //font family um esilo vasado  
@@ -44,7 +88,7 @@
 
 .projetos{
     border-bottom: 3px solid #b673ec;
-    margin: 5px;
+    margin: 24px 24px 24px 0px;
     position: relative;
     display: inline-block;
     
@@ -123,4 +167,42 @@
     transition: 0.5s;
     display: none;
     
+}
+
+//todos os projetos 
+.animação{
+    margin-bottom: 16px;
+            .todos-projetos{
+            color: rgba(255, 255, 255, 0.575);
+            font-size: 4em;
+            margin-top: 50px;
+}
+            .linha-todos-projetos{
+            width: 400px;
+            background-color: rgb(174, 125, 219);
+            height: 3px;
+            
+}
+}
+
+
+@keyframes animação{
+
+    from{
+        opacity: 0;
+        scale: 0.5;
+        clip-path: inset(0% 100% 0% 0%);
+        transform: translateX(-100%)
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+        clip-path: inset(0% 0% 0% 0%);
+        transform: translateX(0%);
+    }
+}
+.projetos,.animação{
+    animation: animateimg  linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
 }
