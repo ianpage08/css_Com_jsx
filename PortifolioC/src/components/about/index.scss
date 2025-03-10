@@ -49,15 +49,18 @@
     
 }
 @keyframes girar {
-    0% {
+    from {
+
         opacity: 0;
+        transform: translateX(-100%)
         
     }
-    100% {
+    to {
         opacity: 1;
         transform: translateX(0%)
     }
 }
 .conteudo_sobre, .img_sobre {
-    animation: girar 0.5s linear ;
-  }
+    animation: girar 1s linear ;
+    
+}
