@@ -9,6 +9,7 @@ import Footer from './components/footer'
 import './global.css'
 
 function App() {
+
   
 
   return (
@@ -19,11 +20,6 @@ function App() {
       <Projetos/>
       <MaisSObreMim/>
       <Footer/>
-      
-      
-      
-      
-      
     </>
   )
 }
