@@ -21,7 +21,7 @@ const Habilidades = () => {
         <>
             <section id='habilidades' >
                 <div className='container'>
-                    <h1 id='h1-habilidades'>Habilidades</h1>
+                    <h1 id='h1-habilidades'>HABILIDADES</h1>
                     <div className="d-flex justify-content-around aling-items-center flex-wrap" id='hb'>
                         
                         <img src={htlm} alt="" className='img-habilidades'/>

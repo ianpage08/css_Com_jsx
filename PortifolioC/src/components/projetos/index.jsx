@@ -52,7 +52,7 @@ const Projetos = () => {
         <div id="destaques-projetos">
             <div className="container" >
                 <div className="animação">
-                    <h2 className="text-center nome-projetos">Projetos</h2>
+                    <h2 className="text-center nome-projetos">PROJETOS</h2>
                     <h3 className="nome-destaques">Destaques</h3>
                             <div className="linha"></div>
                 </div>
@@ -104,7 +104,7 @@ const Projetos = () => {
             </div>
             <div className="container" >
                 <div className="animação">
-                    <h2 className="text-center todos-projetos"> Todos os Projetos</h2>
+                    <h2 className="text-center todos-projetos"> TODOS OS PROJETOS</h2>
                             <div className="m-auto linha-todos-projetos"></div>
                 </div>
                 <div className="d-flex  flex-wrap">

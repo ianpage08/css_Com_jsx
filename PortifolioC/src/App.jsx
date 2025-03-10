@@ -5,6 +5,7 @@ import About from './components/about'
 import Habilidades from './components/Habilidades'
 import Projetos from './components/projetos'
 import MaisSObreMim from './components/mais_sobre'
+import Footer from './components/footer'
 import './global.css'
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
       <Habilidades/>
       <Projetos/>
       <MaisSObreMim/>
+      <Footer/>
+      
       
       
       
