@@ -1,4 +1,4 @@
-
+import { Link } from 'react-scroll'
 import React, { useState } from 'react';
 
 import './index.scss'
@@ -36,10 +36,25 @@ const Header = () =>  {
           </div>
           <nav id='menu' >
             <ul  className={`menu-lista ${menuAberto ? 'aberto' : ''}`}  >
-              <li className='item-menu'><a href="#">Home</a></li>
-              <li className='item-menu'><a href="#">Sobre</a></li>
-              <li className='item-menu'><a href="#">Projetos</a></li>
-              <li className='item-menu'><a href="#">Contato</a></li>
+              <li className='item-menu'>
+                <Link to="about" smooth={true} duration={500} spy={true}>
+                Home
+              </Link>
+              </li>
+              <li className='item-menu'>
+                <Link to="destaques-projetos" smooth={true} duration={500} spy={true}>
+                Projetos
+              </Link>
+              </li>
+              <li className='item-menu'>
+                <Link to="cv" smooth={true} duration={500} spy={true}>
+                Sobre
+              </Link>
+              </li>
+              <li className='item-menu'>
+                <Link to="footer" smooth={true} duration={500} spy={true}>
+                Contato
+              </Link></li>
             </ul>
           </nav>
         

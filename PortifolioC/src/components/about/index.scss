@@ -1,5 +1,4 @@
 #about{
-    
     background-color: #13131f;
     color: white;
     padding: 100px;
@@ -8,7 +7,6 @@
         h2{
             font-size: 9em;
         }
-        
         .btn_sobre{
             text-align: center;
             margin: 0 10px;
@@ -24,8 +22,6 @@
                         transition: 0.5s;
                     }
         }
-        
-    
     a{
                 
                     padding: 10px 24px;
@@ -34,8 +30,6 @@
                     text-decoration: none;
                     color: white;
                     font-weight: lighter;
-                    
-                    
         }
         .img_sobre{
         max-width: 390px;
@@ -44,25 +38,9 @@
         height: 100%;
         }
     }
-    
-            
-        
-        
-    
-}
-@keyframes typing{
-    from{
-        width: 0;
-    }
-    
-}
-@keyframes blinking{
-    50%{
-        border-color: transparent;
-    }
-}
 
-@keyframes girar {
+}
+@keyframes aparecer{
     from {
 
         opacity: 0;
@@ -75,6 +53,6 @@
     }
 }
 .conteudo_sobre, .img_sobre {
-    animation: girar 1s linear ;
+    animation: aparecer 1s linear ;
     
 }

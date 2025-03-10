@@ -103,16 +103,13 @@
             transition: 0.5s;
         }
     }
-
         .ver-mais{
-            
             border-radius: 0px 0px 10px 10px;
-            background-color: black;
+            background-color: rgb(59, 59, 59);
             height: 0px;
             color: white;
             width: 350px;
             display: flex;
-            
             align-items: center;
             justify-content: space-around;
             opacity: 0;
@@ -122,9 +119,18 @@
             transform: translate(-50%, 0%);
             transition: height 0.5s ease-in-out;
                 .data-projeto{
-                    
+                    font-size: 1.2em;
                 }
-            
+            .btn-ver-mais{
+                background-color: #b673ec;
+                padding: 5px 10px;
+                border: none;
+                border-radius: 50px;
+                &:hover{
+                    scale: 0.90;
+                    transition: 0.5s;
+                }
+            }
         }
 }
 .projetos:hover .ver-mais{
@@ -171,7 +177,7 @@
 
 //todos os projetos 
 .animação{
-    margin-bottom: 16px;
+            margin-bottom: 16px;
             .todos-projetos{
             color: rgba(255, 255, 255, 0.575);
             font-size: 4em;

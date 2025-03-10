@@ -23,7 +23,6 @@ function About() {
                     <img src={objeto_sobre} alt=""  className='img_sobre'/>
                     </div>
                 </div>
-
             </section>
         </>
     )

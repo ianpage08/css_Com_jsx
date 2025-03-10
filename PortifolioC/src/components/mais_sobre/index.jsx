@@ -1,10 +1,10 @@
 import './index.scss'
 
 
-const MaisSObreMim = () =>{
+const Cv = () =>{
     return(
         <>
-        <div id='mais-sobre-mim'>
+        <div id='cv'>
             <div className='container d-flex justify-content-between align-items-center  '>
                 
                     <div className='conteudo-mais-sobre '>
@@ -28,4 +28,4 @@ const MaisSObreMim = () =>{
     )
 }
 
-export default MaisSObreMim;
+export default Cv;

@@ -124,8 +124,8 @@ const Projetos = () => {
 
                             <div className="ver-mais">
 
-                                <h3 className="data-projeto"> Miranda Maciel</h3>
-                                <button onClick={abrirprojeto1} className="btn btn-primary ">Ver Mais</button>
+                                <h3 className="data-projeto"> 16/12/2023</h3>
+                                <button onClick={abrirprojeto1} className="btn-ver-mais ">Ver Mais</button>
                             </div>
                         </div>
                     

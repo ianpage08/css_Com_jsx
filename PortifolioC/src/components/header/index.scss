@@ -1,5 +1,8 @@
 
 .header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     background-color: #13131f;
     h1{
         color:white;
@@ -14,7 +17,6 @@
             position: relative;
             cursor: pointer;
             z-index: 10;
-            
             .linha-menu{
                 width: 100%;
                 height: 2px;
@@ -27,7 +29,6 @@
             }
             .linha-menu:nth-child(2){
                 margin-left: 5px;
-
             }
                 .linha-menu:nth-child(1).fechar{
                     transform: translate(-5px, 5px,) rotate(45deg);
@@ -41,13 +42,10 @@
                     height: 3px;
                     
                     transform: translate(5px,-12px) rotate(-45deg);
-
                 }
-                
     }
     /*itens menu*/
     #menu {
-        
         .menu-lista{
             list-style: none;
             visibility: hidden;
@@ -57,15 +55,17 @@
             transition: height 0.3s;
             z-index: 1;
             position: absolute;
-                
                 .item-menu{
+                    cursor: pointer;
                     text-align: center;
                     font-size: 2.5em;
                     padding: 16px;
+                    text-decoration: none;
+                    color: aliceblue;
+                    font-weight: bold;
                     
                     //ver a questão do zoom está criando rolagem lateral
                     &:hover{
-                        color: #000000;
                         border-radius: 50px;
                         background-color: #3c2d6d;
                         scale: 0.8;
@@ -73,13 +73,6 @@
                         overflow: hidden;
                     }
                     
-                    
-                    a{
-                        text-decoration: none;
-                        color: aliceblue;
-                        font-weight: bold;
-                        
-                    }
                 }
         }
         .menu-lista.aberto{
@@ -94,11 +87,8 @@
             z-index: 1;
             
             transform:  translateY(0) ;
-
         }
     }
-    
-
     /*Botão para mudar tema */
     .btn-tema{
         width: 60px;
@@ -108,7 +98,6 @@
         border-radius: 20px;
         position: relative;
         cursor: pointer;
-
         &::before{
             content: '';
             width: 20px;
@@ -123,7 +112,6 @@
         }
         &:checked{
             background-color: rgb(230, 227, 227);
-
             &::before{
                 left: 35px;
                 background-color: #13131f;
@@ -131,15 +119,4 @@
         }
         /*até aqui*/
     }
-
-    
-                
-    
-    
-    
-}
-    
-                
-            
-    
-        
+}    
