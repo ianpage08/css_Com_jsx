@@ -43,10 +43,9 @@ const Projetos = () => {
         
     }
     const fecharprojeto1 = () => setProjeto1aberto(false)
-
     const abrirprojeto2 =  () => setProjeto2aberto(true)
     const fecharprojeto2 = () => setProjeto2aberto(false)
-    
+
     return ( 
         <>
         <div id="destaques-projetos">
@@ -56,7 +55,7 @@ const Projetos = () => {
                     <h3 className="nome-destaques">Destaques</h3>
                             <div className="linha"></div>
                 </div>
-                <div className="d-flex  flex-wrap">
+                <div className="d-flex  flex-wrap pw-768">
                     <div className="destaques-projetos">
                         
                         <div className="projetos">
@@ -107,7 +106,7 @@ const Projetos = () => {
                     <h2 className="text-center todos-projetos"> TODOS OS PROJETOS</h2>
                             <div className="m-auto linha-todos-projetos"></div>
                 </div>
-                <div className="d-flex  flex-wrap">
+                <div className="d-flex  flex-wrap pw-768">
                     <div className="destaques-projetos">
                         
                         <div className="projetos">
@@ -158,9 +157,9 @@ const Projetos = () => {
                 titulo = "Projeto Miranda E Maciel Advocacia">
 
                 <div className="conteudo-dentro-modal">
-                    <ReactPlayer
+                    <ReactPlayer 
                     url={videoMiranda}
-                    width="400px"
+                    width="350px"
                     height="300px"
                     controls={true}
                     playing={true}

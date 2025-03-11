@@ -180,7 +180,7 @@
             margin-bottom: 16px;
             .todos-projetos{
             color: rgba(255, 255, 255, 0.575);
-            font-size: 4em;
+            font-size: 4em ;
             margin-top: 50px;
 }
             .linha-todos-projetos{
@@ -213,7 +213,63 @@
     animation-range: entry 0 cover 30%;
 }
 @media screen and (max-width: 768px) {
+
+    
+    .modal-fundo{
+            .modal-conteudo{
+                width: 95%;
+                height: 95%;
+                .conteudo-dentro-modal{
+                    align-items: flex-start;
+                }
+                .links-modal{
+                    justify-content: space-evenly;
+                    a{  
+                        font-size:1em;
+                        padding: 10px;
+                    }
+                    
+                }
+            }
+    } 
+    //font family um esilo vasado  
     .nome-projetos{
-        font-size: 5em;
+            padding: 24px 0px;
+            font-size: 5em;
     }
+    .nome-destaques{
+            font-size: 2.5em;
+            text-align: center;
+            
+    }
+    .linha{
+                margin: auto
+            };
+    .destaques-projetos{
+        }
+                
+    // estilos projetos 
+    .pw-768{
+        justify-content: center;
+    }
+    .projetos{
+        margin: 34px 0px;
+        }
+    #teste1{
+                .titulo-projeto{
+                    margin: 24px;
+                }
+    }
+    .animação{
+        .todos-projetos{
+        font-size: 2.8em ;
 }
+        .linha-todos-projetos{
+        width: 300px;
+}
+}
+    }
+    
+    
+
+    
