@@ -9,7 +9,7 @@ const Cv = () =>{
                 
                     <div className='conteudo-mais-sobre '>
                         <h2 > MAIS SOBRE</h2>
-                        <p >Acredito que um bom front-end é essencial para o sucesso de qualquer projeto digital. Por isso, me dedico a criar soluções de alta qualidade. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore vero vitae doloribus! Magni dicta, ut doloremque veniam laudantium nesciunt, sint quia repellat esse ratione expedita quos nisi? Quibusdam, distinctio quas?</p>
+                        <p >Minha jornada na programação começou com a curiosidade de desvendar os segredos por trás das tecnologias que usamos diariamente. O Front-End me proporcionou a oportunidade de expressar minha criatividade e construir interfaces que encantam. Agora, no Back-End, busco aprofundar meus conhecimentos e entender a lógica por trás das aplicações web. Acredito que a paixão pelo aprendizado contínuo é a chave para se tornar um desenvolvedor completo.</p>
                         <div>
                             <div className='btn-mais-sobre '>
                                 <a href="https://github.com/ianpage08" target='blank'>Repositório</a>

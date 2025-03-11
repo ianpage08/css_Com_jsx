@@ -9,7 +9,7 @@ function About() {
                 <div className='d-flex justify-content-between align-items-center container w-768'>
                     <div className='conteudo_sobre'>
                         <h2>SOBRE</h2>
-                        <p>Acredito que um bom front-end é essencial para o sucesso de qualquer projeto digital. Por isso, me dedico a criar soluções de alta qualidade.</p>
+                        <p>Sou um desenvolvedor apaixonado por transformar ideias em realidade digital. Minha jornada na programação começou com o fascínio pela capacidade de criar mundos inteiros com linhas de código. Com foco em Front-End, busco construir interfaces intuitivas e experiências de usuário memoráveis. Atualmente, exploro o universo do Back-End, expandindo meu conhecimento para criar aplicações web completas e robustas.</p>
                         <div>
                             <div className='btn_sobre'>
                                 <a href="https://drive.google.com/file/d/1UIyBI7SOjsUjCdLNrem6unizfh7nxCNz/view?usp=sharing" target='blank'>Currículo</a>
