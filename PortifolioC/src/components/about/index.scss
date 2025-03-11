@@ -71,13 +71,9 @@
         #about{
             padding: 30px;
             .conteudo_sobre{
-                width: 410px;
+                width: 450px;
                 h2{
                     font-size: 5em;
-                }
-            a{
-                font-weight: bold;
-                font-size: 1.2em;
                 }
                     .btn_sobre{
                         text-align: center;
@@ -87,7 +83,7 @@
                 a{
                             
                                 padding: 10px 20px;
-                                font-size: 1.2em;
+                                font-size: 1em;
                     }
                 }
             }
@@ -103,17 +99,17 @@
     #about{
         padding-top: 50px;
         .conteudo_sobre{
-            width: 400px;
+            width: 500px;
             h2{
                 font-size: 5em;
             }
             .btn_sobre{
-                margin: 0 5px;
-                padding: 0px;
+                margin: 5px 5px;
+                padding: 10px 10px;
             }
         a{
                         padding: 10px 10px;
-                        font-size: 1em;
+                        font-size: 1.5em;
             }
         }
     }
@@ -139,12 +135,12 @@
             .btn_sobre{
                 text-align: center;
                 margin: 0 5px;
-                padding: 5px;
+                padding: 10px;
             }
         a{
                     
                         padding: 10px 9px;
-                        font-size: 1em;
+                        font-size: 1.5em;
             }
         }
     }

@@ -15,7 +15,7 @@ function About() {
                                 <a href="https://drive.google.com/file/d/1UIyBI7SOjsUjCdLNrem6unizfh7nxCNz/view?usp=sharing" target='blank'>Currículo</a>
                             </div>
                             <div className='btn_sobre'>
-                                <a href="https://wa.me/5574998136456" target='blank'>Entre em Contato</a>
+                                <a href="https://wa.me/5574998136456" target='blank'>Contato</a>
                             </div>
                         </div>
                     </div>
