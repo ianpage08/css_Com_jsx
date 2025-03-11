@@ -41,10 +41,25 @@ $tema-escuro-text: #13131f;
     transform: translateX(0%);
   }
 }
-
 .img-habilidades,
 #h1-habilidades {
   animation: animateimg linear;
   animation-timeline: view();
   animation-range: entry 0 cover 30%;
+}
+
+@media screen and (max-width: 768px) {
+  #habilidades {
+    padding: 10px;
+    #h1-habilidades{
+      padding: 40px 0px;
+      font-size: 3em;
+    }
+    #hb {
+      .img-habilidades {
+        padding: 0px;
+        margin: 18px;
+      }
+    }
+  }
 }
