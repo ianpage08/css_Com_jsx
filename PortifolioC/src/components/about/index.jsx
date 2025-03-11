@@ -12,10 +12,10 @@ function About() {
                         <p>Acredito que um bom front-end é essencial para o sucesso de qualquer projeto digital. Por isso, me dedico a criar soluções de alta qualidade.</p>
                         <div>
                             <div className='btn_sobre'>
-                                <a href="#">Projetos</a>
+                                <a href="https://drive.google.com/file/d/1UIyBI7SOjsUjCdLNrem6unizfh7nxCNz/view?usp=sharing" target='blank'>Currículo</a>
                             </div>
                             <div className='btn_sobre'>
-                                <a href="#">Entre em Contato</a>
+                                <a href="https://wa.me/5574998136456" target='blank'>Entre em Contato</a>
                             </div>
                         </div>
                     </div>

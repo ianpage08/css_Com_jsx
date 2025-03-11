@@ -12,10 +12,10 @@ const Cv = () =>{
                         <p >Acredito que um bom front-end é essencial para o sucesso de qualquer projeto digital. Por isso, me dedico a criar soluções de alta qualidade. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore vero vitae doloribus! Magni dicta, ut doloremque veniam laudantium nesciunt, sint quia repellat esse ratione expedita quos nisi? Quibusdam, distinctio quas?</p>
                         <div>
                             <div className='btn-mais-sobre '>
-                                <a href="#">Repositorio</a>
+                                <a href="https://github.com/ianpage08" target='blank'>Repositório</a>
                             </div>
-                            <div className='btn-mais-sobre '>
-                                <a href="#" className='animação'>Curriculo</a>
+                            <div className='btn-mais-sobre ' >
+                                <a href="https://drive.google.com/file/d/1UIyBI7SOjsUjCdLNrem6unizfh7nxCNz/view?usp=sharing"  target='blank'>Currículo</a>
                             </div>
                         </div>
                     </div>
