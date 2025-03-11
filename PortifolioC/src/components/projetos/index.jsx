@@ -168,9 +168,9 @@ const Projetos = () => {
                     <p>Desenvolver o site do escritório Miranda e Maciel Advocacia foi um projeto que me permitiu combinar minhas habilidades em design e programação para criar uma plataforma online que transmitisse profissionalismo e confiança.</p>
                 </div>
                 <div className="links-modal">
-                        <a href="#">Acessar Projeto</a>
-                        <a href="#"> Acessar PostLinkedin</a>
-                        <a href="#"> Acessar Repositorio GitHub</a>
+                        <a href="https://advocacia-miranda-maciel.vercel.app/">Acessar Projeto</a>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7297680164124057600/"> Acessar PostLinkedin</a>
+                        <a href="https://github.com/ianpage08/Projeto-Advocacia-Miranda-Maciel"> Acessar Repositorio GitHub</a>
 
                 </div>
             </Modal>
