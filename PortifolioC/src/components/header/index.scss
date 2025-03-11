@@ -120,3 +120,12 @@
         /*até aqui*/
     }
 }    
+
+@media screen and (max-width: 768px) {
+    #menu-hamburguer{
+        margin-right: 16px;
+    }
+    .btn-tema {
+        margin-left: 16px;
+    }
+}

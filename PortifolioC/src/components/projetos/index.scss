@@ -212,3 +212,8 @@
     animation-timeline: view();
     animation-range: entry 0 cover 30%;
 }
+@media screen and (max-width: 768px) {
+    .nome-projetos{
+        font-size: 5em;
+    }
+}

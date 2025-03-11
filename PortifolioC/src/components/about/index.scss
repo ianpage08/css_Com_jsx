@@ -38,7 +38,6 @@
         height: 100%;
         }
     }
-
 }
 @keyframes aparecer{
     from {
@@ -55,4 +54,32 @@
 .conteudo_sobre, .img_sobre {
     animation: aparecer 1s linear ;
     
+}
+
+@media screen and (max-width: 768px) {
+    .w-768{
+        max-width: 768px;
+        width: 100%;
+        flex-flow: column-reverse nowrap;
+        
+    }
+    .img_sobre{
+            margin-bottom:80px ;
+            max-width: 300px;
+            max-height: 300px;
+        }
+        #about{
+            padding: 30px;
+            .conteudo_sobre{
+                width: 410px;
+                h2{
+                    font-size: 5em;
+                }
+            a{
+                font-weight: bold;
+                font-size: 1.2em;
+                }
+                
+            }
+    }
 }
