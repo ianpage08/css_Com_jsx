@@ -108,3 +108,27 @@
     }
 }
 
+@media screen and (min-width: 380px) and (max-width: 680px) {
+    #about{
+        .conteudo_sobre{
+            width: 300px;
+            h2{
+                font-size: 4em;
+            }
+            .btn_sobre{
+                text-align: center;
+                margin: 0 5px;
+                padding: 5px;
+                border-radius: 50px;
+                display: inline-block;
+                background-image: linear-gradient(to right ,#9838e6 20%,#200e39 );
+                transition: 0.5s;
+            }
+        a{
+                    
+                        padding: 10px 9px;
+                        font-size: 1em;
+            }
+        }
+    }
+}
