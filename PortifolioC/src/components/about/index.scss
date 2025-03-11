@@ -77,7 +77,7 @@
                 }
             a{
                 font-weight: bold;
-                font-size: 8em;
+                font-size: 1.2em;
                 }
                 
             }
@@ -85,8 +85,9 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1100px) {
     .img_sobre{
+        padding-left: 20px;
         margin-bottom:80px ;
-        max-width: 350px;
+        max-width: 300px;
         max-height: 350px;
     }
     #about{
@@ -97,11 +98,11 @@
             }
             .btn_sobre{
                 margin: 0 5px;
-                padding: 5px;
+                padding: 0px;
             }
         a{
                         padding: 10px 16px;
-                        font-size: 1.4em;
+                        font-size: 1.5em;
             }
         }
     }

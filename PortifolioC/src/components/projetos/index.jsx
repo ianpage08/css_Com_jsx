@@ -73,7 +73,7 @@ const Projetos = () => {
                             <div className="ver-mais">
 
                                 <h3 className="data-projeto"> Miranda Maciel</h3>
-                                <button onClick={abrirprojeto1} className="btn btn-primary ">Ver Mais</button>
+                                <button onClick={abrirprojeto1} className="btn-ver-mais ">Ver Mais</button>
                             </div>
                         </div>
                     
@@ -94,7 +94,7 @@ const Projetos = () => {
                         <div className="ver-mais">
                     
                                 <h3 className="data-projeto"> Miranda Maciel</h3>
-                                <button onClick={abrirprojeto2} className="btn btn-primary ">Ver Mais</button>
+                                <button onClick={abrirprojeto2} className="btn-ver-mais ">Ver Mais</button>
                             </div>
                         </div>
                     
@@ -145,7 +145,7 @@ const Projetos = () => {
                             <div className="ver-mais">
                     
                                 <h3 className="data-projeto"> Miranda Maciel</h3>
-                                <button onClick={abrirprojeto2} className="btn btn-primary ">Ver Mais</button>
+                                <button onClick={abrirprojeto2} className="btn-ver-mais ">Ver Mais</button>
                             </div>
                         </div>
                     

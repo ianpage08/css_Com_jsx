@@ -74,3 +74,39 @@
             }
     }
 }
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+    #cv{
+        background-color: #13131f;
+        overflow: hidden;
+        
+        
+            background-color: #13131f;
+            color: white;
+            padding: 50px;
+            .conteudo-mais-sobre{
+                h2{
+                    font-size: 4em;
+                }
+                p{
+                    width: 400px;
+                }
+                width: 600px;
+                .btn-mais-sobre{
+                    margin: 0 5px;
+                    padding: 5px;
+                }
+            a{
+                        
+                            padding: 5px 24px;
+                            font-size: 1.5em;
+                }
+            }
+            
+                    
+                
+                
+            
+        
+        
+    }
+}

@@ -18,8 +18,8 @@
             flex-flow: nowrap column;
             align-items: center;
             justify-content: space-around;
-            width: 70%;
-            height: 75%;
+            width: 80%;
+            height: 90%;
             padding: 24px;
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); 
@@ -33,13 +33,13 @@
             .conteudo-dentro-modal{
                 p{  
                     color: rgba(255, 255, 255, 0.575);
-                    width: 50%;
-                    padding: 20px;
+                    width: 40%;
+                    padding: 10px;
                     text-align: justify;
                 }
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: space-around;
             }
             .links-modal{
                 width: 100%;
@@ -279,7 +279,7 @@
             
     }
         .projetos{
-            
+            border: none;
             
             .img-projetos{
                 
@@ -289,36 +289,40 @@
             }
                 .ver-mais{
                     width: 300px;
-                    
                 }
-        }
-        .projetos:hover .ver-mais{
-            overflow: hidden;
-            height: 50px;
-            transition: height 0.5s ease-in-out;
-            opacity: 1;
-        }
-        
-        .projetos:hover{
-            filter: brightness(1);
-            scale: 1.05;
-            transition: 0.5s ease-in-out;
         }
         #teste1{
                     
                     width: 300px;
                     }
-
-                    .projetos:hover #teste1{
-                        filter: brightness(1);
-                        transition: 0.5s;
-                        display: none;
-                        
-                    
-                }
 }
         
         
-    
+@media screen and (min-width: 500px) and (max-width: 675px) {
 
-    
+.modal-fundo{
+        .modal-conteudo{
+            width: 90%;
+            height: 95%;
+
+            .conteudo-dentro-modal{
+                p{  
+                    display: none;
+                }
+            }
+            .links-modal{
+                margin: 5px;
+                width: 100%;
+                padding: 5px;
+                display: flex;
+                flex-flow: row wrap;
+                a{  
+                    margin: 12px;
+                    padding: 8px;
+                    font-size: 1em;
+                }
+                
+            }
+        }
+}
+}  
