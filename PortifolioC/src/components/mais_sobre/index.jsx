@@ -5,7 +5,7 @@ const Cv = () =>{
     return(
         <>
         <div id='cv'>
-            <div className='container d-flex justify-content-between align-items-center  '>
+            <div className='container d-flex justify-content-between align-items-center mais-sobre '>
                 
                     <div className='conteudo-mais-sobre '>
                         <h2 > MAIS SOBRE</h2>

@@ -15,7 +15,7 @@ const Footer = () =>{
             <div className='container'>
                 <div className='conteudo-footer'>
                     <h2>ENTRE EM CONTATO</h2>
-                    <div className='d-flex justify-content-around align-items-center'>
+                    <div className='d-flex justify-content-around align-items-center link-display-w768 '>
                         <div className='links-footer'>
                             <a href="#">
                                 <img src={Github} alt="Github" />

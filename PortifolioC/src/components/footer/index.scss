@@ -19,28 +19,42 @@
             a{  
                 color:rgba(255, 255, 255, 0.514) ;
                 text-decoration: none;
-
                 h4{
                     padding-top: 5px;
                 }
-                p{
-                    white-space: nowrap;
-                    animation: typing 5s;
+                
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #footer{
+        padding: 10px;
+        height: 100vh;;
+        
+        text-align: center;
+        .conteudo-footer{
+            h2{
+                color: rgba(255, 255, 255, 0.507);
+                font-size: 2.5em;
+                padding-bottom: 32px;
+            }
+            .d-flex{
+                flex-flow: row wrap;
+                justify-content: space-between !important;
+                align-items: center;
+            }
+            .links-footer{
+                padding: 10px;
+                margin: auto;
+                text-align: center;
+                a{
+                    text-align: center;
+                    
                 }
             }
         }
     }
 }
-@keyframes typing{
-    from{
-        width: 0;
-    }
-    
-}
-@keyframes blinking{
-    50%{
-        border-color: transparent;
-    }
-}
-
 
