@@ -12,7 +12,7 @@ import javascript from './imagens/js.png'
 import sass from './imagens/sass.png'
 //import redux from './imagens/redux.png'
 import mirandaMaciel from './imagens/foto-projeto-miranda.jpg'
-import videoEmail from './videos/video-email.mp4'
+import videoEmail from './videos/Projeto-email.mp4'
 import imgEmail from './imagens/Projeto E-mail.jpg'
 
 
@@ -192,8 +192,8 @@ const Projetos = () => {
                 </div>
                 <div className="links-modal">
                         <a href="https://projeto-email-hammer-grill.vercel.app/" target="_blank">Acessar Projeto</a>
-                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7297680164124057600/" target="_blank"> Acessar PostLinkedin</a>
-                        <a href="https://github.com/ianpage08/Projeto-Advocacia-Miranda-Maciel" target="_blank"> Acessar Repositorio GitHub</a>
+                        <a href="https://www.linkedin.com/posts/ian-page-miranda-maciel-b98a07212_html-css-emailmarketing-activity-7305728307629559808-bQLF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADXmDeQBkdLYg7_8IZquVW9WAOWmTjI8X28" target="_blank"> Acessar PostLinkedin</a>
+                        <a href="https://github.com/ianpage08/Projeto_email_Hammer_grill" target="_blank"> Acessar Repositorio GitHub</a>
 
                 </div>
             </Modal>
