@@ -4,7 +4,7 @@ import './index.scss'
 import videoMiranda from './videos/video-prejeto-miranda.mp4'
 //import api from './imagens/api.png'
 import html from './imagens/html.png'
-//import css from './imagens/css.png'
+import css from './imagens/css.png'
 import javascript from './imagens/js.png'
 //import typescript from './imagens/typescript.png'
 //import react from './imagens/react.png'
@@ -12,6 +12,8 @@ import javascript from './imagens/js.png'
 import sass from './imagens/sass.png'
 //import redux from './imagens/redux.png'
 import mirandaMaciel from './imagens/foto-projeto-miranda.jpg'
+import videoEmail from './videos/video-email.mp4'
+import imgEmail from './imagens/Projeto E-mail.jpg'
 
 
 const Modal = ({aberto, onClose, titulo, children}) => {
@@ -81,19 +83,19 @@ const Projetos = () => {
                     <div className="destaques-projetos">
                         
                         <div className="projetos">
-                            <img src="https://placehold.co/350x250" alt=""  className="img-projetos"/>
+                            <img src={imgEmail} alt=""  className="img-projetos"/>
                             <div id="teste1">
                                 <div>
-                                    <h3 className="titulo-projeto">Miranda E Maciel</h3> 
-                                    <img src={sass} alt="sass" className="img-capa-tec-projetos" />
+                                    <h3 className="titulo-projeto">Hammer Grill</h3> 
+                                    <img src={css} alt="sass" className="img-capa-tec-projetos" />
                                     <img src={html} alt="htlm" className="img-capa-tec-projetos" />
-                                    <img src={javascript} alt="javascript"  className="img-capa-tec-projetos"/>
+                                    
                                 </div>
                                 
                             </div>
                         <div className="ver-mais">
                     
-                                <h3 className="data-projeto"> Miranda Maciel</h3>
+                                <h3 className="data-projeto"> 12/03/2025</h3>
                                 <button onClick={abrirprojeto2} className="btn-ver-mais ">Ver Mais</button>
                             </div>
                         </div>
@@ -168,17 +170,32 @@ const Projetos = () => {
                     <p>Desenvolver o site do escritório Miranda e Maciel Advocacia foi um projeto que me permitiu combinar minhas habilidades em design e programação para criar uma plataforma online que transmitisse profissionalismo e confiança.</p>
                 </div>
                 <div className="links-modal">
-                        <a href="https://advocacia-miranda-maciel.vercel.app/">Acessar Projeto</a>
-                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7297680164124057600/"> Acessar PostLinkedin</a>
-                        <a href="https://github.com/ianpage08/Projeto-Advocacia-Miranda-Maciel"> Acessar Repositorio GitHub</a>
+                        <a href="https://advocacia-miranda-maciel.vercel.app/" target="_blank">Acessar Projeto</a>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7297680164124057600/" target="_blank"> Acessar PostLinkedin</a>
+                        <a href="https://github.com/ianpage08/Projeto-Advocacia-Miranda-Maciel" target="_blank"> Acessar Repositorio GitHub</a>
 
                 </div>
             </Modal>
             <Modal aberto={projeto2aberto}
                 onClose={fecharprojeto2}
-                titulo= "Projeto 2">
-            
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt tenetur consequuntur quos in assumenda reiciendis sequi voluptate dignissimos adipisci aspernatur sit porro magni, voluptatem consectetur alias quasi laudantium quisquam delectus.</p>
+                titulo= "E-mail Promocional Temático Hammer Grill">
+                    <div className="conteudo-dentro-modal">
+                    <ReactPlayer 
+                    url={videoEmail}
+                    width="350px"
+                    height="300px"
+                    controls={true}
+                    playing={true}
+                    />
+                    
+                    <p>Desenvolvi um e-mail promocional temático para um restaurante fictício chamado "Hammer Grill", inspirado na rica mitologia nórdica. O objetivo era criar uma peça de comunicação visualmente atraente e informativa, capaz de despertar o interesse do público e promover os pratos e a atmosfera única do restaurante.</p>
+                </div>
+                <div className="links-modal">
+                        <a href="https://projeto-email-hammer-grill.vercel.app/" target="_blank">Acessar Projeto</a>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7297680164124057600/" target="_blank"> Acessar PostLinkedin</a>
+                        <a href="https://github.com/ianpage08/Projeto-Advocacia-Miranda-Maciel" target="_blank"> Acessar Repositorio GitHub</a>
+
+                </div>
             </Modal>
             </div>
             </>
