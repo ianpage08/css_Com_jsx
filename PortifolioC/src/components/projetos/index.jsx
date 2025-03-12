@@ -134,19 +134,19 @@ const Projetos = () => {
                     <div className="destaques-projetos">
                         
                         <div className="projetos">
-                            <img src="https://placehold.co/350x250" alt=""  className="img-projetos"/>
+                            <img src={imgEmail} alt=""  className="img-projetos"/>
                             <div id="teste1">
                                 <div>
-                                    <h3 className="titulo-projeto">Miranda E Maciel</h3> 
-                                    <img src={sass} alt="sass" className="img-capa-tec-projetos" />
+                                    <h3 className="titulo-projeto">Hammer Grill</h3> 
+                                    <img src={css} alt="css" className="img-capa-tec-projetos" />
                                     <img src={html} alt="htlm" className="img-capa-tec-projetos" />
-                                    <img src={javascript} alt="javascript"  className="img-capa-tec-projetos"/>
+                                    
                                 </div>
                                 
                             </div>
                             <div className="ver-mais">
                     
-                                <h3 className="data-projeto"> Miranda Maciel</h3>
+                                <h3 className="data-projeto"> 12/03/2025</h3>
                                 <button onClick={abrirprojeto2} className="btn-ver-mais ">Ver Mais</button>
                             </div>
                         </div>
